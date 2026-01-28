@@ -6,7 +6,10 @@ function App() {
   return (
     <>
       <div className="hero-section">
-        <h1>Amaro González</h1>
+        <div className="me">
+          <h1 className='name'>Amaro González</h1>
+          <h4 className='job'>Web & Software Developer</h4>
+        </div>
       </div>
     </>
   )

@@ -11,8 +11,10 @@
   --font-trispace: 'Trispace', sans-serif;
   --font-alegreya: 'Alegreya', serif;
   
-  --font-inter: 'Inter', sans-serif;
   --font-spline-sans: 'Spline Sans', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+
+  --x: 1.75 y: 3.5;
 }
 
 * {
@@ -23,4 +25,33 @@
 
 body {
   background: #c70000;
+}
+
+.hero-section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding: 2em;
+}
+
+.hero-section::selection {
+  background: #000;
+  color: #fff;
+}
+
+.hero-section .me {
+  width: 70%;
+  height: auto;
+  margin-top: auto;
+}
+
+.me .name {
+  font-family: var(--font-unbounded);
+  font-size: 7em;
+}
+
+.me .job {
+  font-family: var(--font-geist);
+  font-size: 2em;
+  text-decoration: underline 1.7em solid #000;
 }
